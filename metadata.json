@@ -1,0 +1,8 @@
+{
+  "name": "Célune — Luxury Celestial Jewellery",
+  "description": "High jewelry inspired by moonlight, tides, constellations, and meaningful human connections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
