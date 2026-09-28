@@ -25,6 +25,7 @@ import { WishlistDrawer } from './components/WishlistDrawer';
 import { CheckoutModal } from './components/CheckoutModal';
 import { UserAccountModal } from './components/UserAccountModal';
 import { QuizModal } from './components/QuizModal';
+import { CeluneConciergeChat } from './components/CeluneConciergeChat';
 
 const AppContent: React.FC = () => {
   const { activeView, toastMessage } = useShop();
@@ -95,6 +96,9 @@ const AppContent: React.FC = () => {
       <CheckoutModal />
       <UserAccountModal />
       <QuizModal />
+
+      {/* n8n Celestial Atelier Concierge Chat Widget */}
+      <CeluneConciergeChat />
 
       {/* Subtle Floating Toast Notification */}
       {toastMessage && (
